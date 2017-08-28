@@ -27,14 +27,7 @@ public class Agenda {
 		// TODO Auto-generated constructor stub
 	}
 
-	public Agenda(Long Id,String a_time, String a_desc, String a_ins) {
-		super();
-		this.Id=Id;
-		this.a_time = a_time;
-		this.a_desc = a_desc;
-		this.a_ins = a_ins;
-	}
-
+	
 	public Long getId() {
 		return Id;
 	}
